@@ -66,28 +66,41 @@ docker exec -it nest_backend npm run seed
 
 Backend
 
+
 .env
+
 
 NODE_ENV=development
 
+
 PORT=7000
+
 
 POSTGRES_HOST=postgres_db
 
+
 POSTGRES_USER=postgres
+
 
 POSTGRES_DB=dealdb
 
+
 POSTGRES_PASSWORD=admin123
+
 
 POSTGRES_PORT=5432
 
+
 FRONTEND_URL=http://localhost:3001
+
 
 Frontend
 
+
 .env
 
+
 NEXT_PUBLIC_BACKEND_URL=http://localhost:7001
+
 
 NEXT_PUBLIC_BACKEND_URL_INTERNAL=http://backend:7000
