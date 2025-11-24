@@ -46,7 +46,7 @@ start all services.
 
 Frontend (Next.js): 👉 http://localhost:3001
 
-Backend (NestJS + Swagger): 👉 http://localhost:7001/api
+Backend (NestJS + Swagger): 👉 http://localhost:7001/api/docs
 
 Database (Postgres): postgres://postgres:admin123@localhost:5432/dealdb
 
